@@ -1,0 +1,57 @@
+th,
+td {
+  /* border: 1px solid rgb(160 160 160); */
+  padding: 8px 10px;
+}
+
+th[scope='col'] {
+  background-color: #cb8e8e;
+  color: #675e5e;
+}
+
+th[scope='row'] {
+  background-color: #a6b0a5;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-of-type(even) {
+  background-color: #5A6C57;
+}
+
+table {
+  border-collapse: collapse;
+  /* border: 2px solid rgb(140 140 140); */
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+}
+img {
+  width: 400px; 
+  height: 400px;
+  border-radius : 50%;
+}
+
+body {
+  background-color: #E8ECD7;
+}
+
+h1 {
+  color: #AE445A;
+}
+
+hr {
+  /* background-color: #7e7f7e; */
+  width: 30%;
+  /* height: 20px; */
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+}
